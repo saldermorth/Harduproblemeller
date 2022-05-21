@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class MediumMode
 {
@@ -32,3 +33,4 @@ public class MediumMode
 
         return sums.Any(x => x == Value);
     }
+}
